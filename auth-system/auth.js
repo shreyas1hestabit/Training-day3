@@ -4,3 +4,9 @@ function canAccessFinance(role) {
 }
 
 module.exports = { canAccessFinance };
+
+function canAccessDashboard(role) {
+  return role === "admin" || role === "manager";
+}
+
+module.exports = { canAccessFinance, canAccessDashboard };
