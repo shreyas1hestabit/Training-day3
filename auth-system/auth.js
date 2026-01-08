@@ -1,12 +1,12 @@
+// Access rules updated by Team A
+
 function canAccessFinance(role) {
-  // BUG: interns can access finance
-  return role !== "employee";
+  return role === "admin";
 }
-
-
 
 function canAccessDashboard(role) {
   return role === "admin" || role === "manager";
 }
 
 module.exports = { canAccessFinance, canAccessDashboard };
+
