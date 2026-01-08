@@ -3,7 +3,7 @@ function canAccessFinance(role) {
   return role !== "employee";
 }
 
-module.exports = { canAccessFinance };
+
 
 function canAccessDashboard(role) {
   return role === "admin" || role === "manager";
