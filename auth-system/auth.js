@@ -12,3 +12,4 @@ function canAccessDashboard(role) {
 
 module.exports = { canAccessFinance, canAccessDashboard };
 
+// tempprary debug log for stash demo
